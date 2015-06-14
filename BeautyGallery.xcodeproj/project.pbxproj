@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9008690F1B2DBD5B00111446 /* KoreanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9008690E1B2DBD5B00111446 /* KoreanViewController.swift */; };
 		908489DC1B2C7E5900AFA8A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908489DB1B2C7E5900AFA8A9 /* AppDelegate.swift */; };
 		908489DE1B2C7E5900AFA8A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908489DD1B2C7E5900AFA8A9 /* ViewController.swift */; };
 		908489E11B2C7E5900AFA8A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908489DF1B2C7E5900AFA8A9 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9008690E1B2DBD5B00111446 /* KoreanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreanViewController.swift; sourceTree = "<group>"; };
 		908489D61B2C7E5900AFA8A9 /* BeautyGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautyGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		908489DA1B2C7E5900AFA8A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		908489DB1B2C7E5900AFA8A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				908489DD1B2C7E5900AFA8A9 /* ViewController.swift */,
 				908489FB1B2C8C4700AFA8A9 /* ViewControllerExtension.swift */,
 				908489FD1B2C8FBA00AFA8A9 /* GalleryViewController.swift */,
+				9008690E1B2DBD5B00111446 /* KoreanViewController.swift */,
 				908489DF1B2C7E5900AFA8A9 /* Main.storyboard */,
 				908489E21B2C7E5900AFA8A9 /* Images.xcassets */,
 				908489E41B2C7E5900AFA8A9 /* LaunchScreen.xib */,
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				908489DE1B2C7E5900AFA8A9 /* ViewController.swift in Sources */,
+				9008690F1B2DBD5B00111446 /* KoreanViewController.swift in Sources */,
 				908489FE1B2C8FBA00AFA8A9 /* GalleryViewController.swift in Sources */,
 				908489DC1B2C7E5900AFA8A9 /* AppDelegate.swift in Sources */,
 				908489FC1B2C8C4700AFA8A9 /* ViewControllerExtension.swift in Sources */,
@@ -417,6 +421,7 @@
 				908489F71B2C7E5900AFA8A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		908489F81B2C7E5900AFA8A9 /* Build configuration list for PBXNativeTarget "BeautyGalleryTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +430,7 @@
 				908489FA1B2C7E5900AFA8A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
